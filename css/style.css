@@ -144,10 +144,11 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .line-mf {
@@ -467,7 +468,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce {
-  transition: all .5s ease-in-out;
+  position: fixed;
   background-color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
