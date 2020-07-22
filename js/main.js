@@ -113,7 +113,6 @@
 			}
 		}
 	});
-
 	/* context menu right click   */
 	if (document.addEventListener) {
 		document.addEventListener('contextmenu', function(e) {
@@ -127,5 +126,4 @@
 		  window.event.returnValue = false;
 		});
 	  }
-
 })(jQuery);
